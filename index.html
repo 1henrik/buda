@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hur dyrt blir det?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Hur dyrt blir det?</h1>
+
+    <div class="converter">
+        <input
+            type="number"
+            id="hufAmount"
+            placeholder="Antal HUF..."
+            oninput="convert()"
+        >
+    </div>
+
+    <div class="result" id="result">0 SEK</div>
+    <p class="rate">Växlingskurs: 1 HUF = 0.028 SEK</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
